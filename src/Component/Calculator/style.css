@@ -21,6 +21,10 @@
     margin-bottom: 9px;
 }
 
+button {
+    background-color: white;
+
+}
 
 .calculator {
     width: 200px;
@@ -56,7 +60,6 @@ button#number:hover {
 
 .equal {
         font-size: 18px;
-        background-color: white;
         height: 100%;
         padding: 10px;
         cursor: pointer;
@@ -66,4 +69,5 @@ button#number:hover {
 .equal > button {
     height: 237px;
     padding: 5px 5px;
+    background-color: lightblue;
 }

@@ -1,0 +1,64 @@
+* {
+    font-size: 18;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 180px;
+    height: 80px;
+    margin-bottom: 9px;
+}
+
+
+.operators {
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    width: 200px;
+    height: 253px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.operators button, .numbers button {
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button#number:hover {
+    background: green;
+}
+
+.equal {
+        font-size: 18px;
+        background-color: white;
+        height: 100%;
+        padding: 10px;
+        cursor: pointer;
+        margin: 5px;
+}

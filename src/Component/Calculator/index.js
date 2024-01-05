@@ -29,7 +29,7 @@ const Calculator = () => {
                     <input type="text" value={result}/>
             </div>
 
-            <div className="operators">
+            <div className="calculator">
                         <button name="/" onClick={handleClick}>&divide;</button>
                         <button name="*" onClick={handleClick}>&times;</button>
                         <button name="-" onClick={handleClick}>&minus;</button>

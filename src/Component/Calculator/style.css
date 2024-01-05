@@ -62,3 +62,8 @@ button#number:hover {
         cursor: pointer;
         margin: 5px;
 }
+
+.equal > button {
+    height: 237px;
+    padding: 5px 5px;
+}

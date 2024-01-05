@@ -51,7 +51,7 @@ const Calculator = () => {
                         <button name="." onClick={handleClick}>.</button>
             </div>
             <div className="equal">
-                <button onClick={calculate} className='' >=</button>
+                <button onClick={calculate}>=</button>
             </div>
             </div>
         </div>
